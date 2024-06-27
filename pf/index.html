@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type ="text/css" href="CSS/styles.css">
+  <script src="script/script.js" defer></script>
+  <title>Louis pf</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="#accueil" class="logo"><img src="pf.png" alt="mon logo"></a>
+    <div class="nav-links">
+      <ul>
+        <li><a id="accueil_nav" onclick="actif('accueil_nav')" href="#accueil">Accueil</a></li>
+        <li><a id="a_propos_nav" onclick="actif('a_propos_nav')" href="#a_propos">A propos</a></li>
+        <li><a id="travaux_nav"  onclick="actif('travaux_nav')"href="#travaux">Travaux</a></li>
+        <li><a id="contact_nav" onclick="actif('contact_nav')" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <img id="menu_hamburger" src="humberger.png" alt="menu hamburger">
+  </nav>
+
+  <header id="accueil">
+      <p>Bonjour, <br/>
+         Je suis Davin Louis  </p>
+  
+      <a href="#a_propos">
+        <div class="arow">
+            <span></span>
+            <span></span>
+        </div>
+      </a>
+  </header>
+  
+
+  <section id="a_propos">
+      <h2 style="width:100vw;font-size:45px;text-align: center; margin-top: 20px;">A Propos</h2>
+      <img class="img_moi" src="moi.jpeg" alt="photo de moi pour ma présentation">
+      <div id="container_a_propos">
+        <div id="container_txt">
+          <p>Je m'appelle Davin Louis, j'ai 18 ans et suis étudiant de première année en BTS SIO a H3hitema. J'ai découvert ma passion pour la programmation et notamment le développement Web très tôt, ce qui m'a permis de choisir un bac professionnel SN au lycée qui m'a beaucoup aidé à apprendre la logique d'un langage de programmation grâce à Python et m'a fait découvrir les bases de HTML et CSS, SQL... </p> <br>
+          <p> J'ai choisi la formation SIO car c'est une formation polyvalente qui porte aussi un interêt aux aspects de la cyber des métiers du Web, tels que des métiers comme paintesteur ou dans le web. </p> <br>
+          <p>A l'issue de ma première année, je souhaiterais continuer dans mon  entreprise en tant qu'alternant développeur full-stack et front-end. En effet, je pense qu'integrer une entreprise le plus tot possible est benefic pour la suite professionnel.</p>
+        </div>
+        <button onclick="window.location='cv.pdf';">
+          Mon CV Papier
+        </button>
+
+        <button style="background-color: #004aa7;" onclick="window.location='https://www.youtube.com/watch?v=JpIShIIrrpM&list=PLAllRtBM4hHBq5qP0S82S5oNShu0KFoO_'">
+          Mon CV Vidéo
+        </button>
+      </div>
+      </div>
+  </section>
+
+  <section id="travaux">
+      <h1 style="font-size: 40px;">Mes Travaux</h1>
+      <div class="container_card">
+        <a href="../index.php">
+          <div class="card">
+            <img src="background.webp" alt="image de développement web">
+            <h2>Développement Web</h2>
+            <p>Cliquez ici pour découvrir quelques de mes travaux réalisés cette année en développement Web ! Il s'agit bien évidemment en général de sites Web.</p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="tdb.jpeg" alt="image de création graphique">
+            <h2>Création tableau de bord</h2>
+            <p>Cliquez ici pour découvrir mes créations réalisées en design numérique cette année ! Il s'agit ici de créations d'illustrations, de montage photo, de création de logo...  </p>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="card">
+            <img src="base_d_d.png" alt="image qui représente les autres travaux">
+            <h2>transfet basse de donné </h2>
+            <p>Cliquez ici pour découvrir mes autres travaux ! Cette fois si il ne s'agit pas d'un site internet mais cela une relation car c'est de la base de donné.</p>
+          </div>
+        </a>
+
+      <a href="">
+        <div class="card">
+          <img src="cyber.jpeg" alt="image qui représente le travail perso">
+          <h2>cybercécurité</h2>
+          <p>Cliquez ici pour découvrir mes créations personnelles ! Cette fois si il ne s'agit pas d'un site internet mais bien de la cybercécurité !</p>
+        </div>
+      </a>
+      </div>
+  </section>
+
+  <section id="contact">
+    <h2 style="width:100vw;font-size:45px;text-align: center; margin-bottom: 50px;">Contact</h2>
+
+    <div>
+      <p>Vous pouvez me contacter via mon mail :</p>
+      <div>
+        <img class="img_contact" src="mail.png" alt="logo mail">
+        <p>louisdavin3@gmail.com</p>
+      </div>
+    </div>
+    
+    <div>
+      <h2 style="width:100vw;font-size:35px;text-align: center ; color: #004aa7;">Mes réseaux</h2>
+      <div style="display: flex; gap: 40px;">
+        <a href="https://github.com/kidloulou" target="_blank"><img class="img_contact" src="lin.png" alt="logo de github"></a>
+        <a href="https://www.linkedin.com/in/louis-davin-a14b62201/" target="_blank"><img class="img_contact" src="git.png" alt="logo de linkedin"></a>
+      </div>
+  </div>
+  </section>
+
+</body>
+</html>
